@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Bab Games offers a variety of online games including puzzles, action, sports, and more. Start your adventure today!">
+  <meta name="keywords" content="online games, free games, play games, Bab Games, 2048, retrobowl, cookie clicker, slope, fun games, unblocked, unblocked games, games">
+  <meta name="author" content="Bab Games Team">
+  
+  <!-- Open Graph Tags (for social media sharing) -->
+  <meta property="og:title" content="Bab Games - Play the coolest games online">
+  <meta property="og:description" content="Bab Games offers a variety of free online games. Play games like 2048, retrobowl, cookie clicker, and more!">
+  <meta property="og:url" content="https://bab.dev">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Card Tags (for Twitter sharing) -->
+  <meta name="twitter:title" content="Bab Games - Play the coolest games online">
+  <meta name="twitter:description" content="Bab Games offers a variety of free online games. Play games like 2048, retrobowl, cookie clicker, and more!">
+
+  <!-- Canonical Link -->
+  <link rel="canonical" href="https://bab.dev">
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6864162159215022" crossorigin="anonymous"></script>
+  
+  <title>Bab Games</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  
+  <style>
+    html, body {
+      height: 100%; /* Ensure the body and HTML fill the full height of the viewport */
+      margin: 0;
+      background: #4a148c;
+      color: #ffffff;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
+    }
+
+    main {
+      flex: 1; /* This makes the main content take up the available space */
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      padding: 12px 0;
+      text-align: center;
+      width: 100%;
+    }
+
+    .shine-effect {
+      position: relative;
+      display: inline-block;
+      color: #ffffff; /* White text color */
+      background: linear-gradient(90deg, #ff6a00, #ee0979, #ff6a00); /* Gradient for shine effect */
+      background-size: 200% 100%;
+      background-position: 100% 0;
+      animation: shine 1.5s infinite linear; /* Shine animation */
+      -webkit-background-clip: text; /* Clip the background to the text */
+      color: transparent; /* Make the text transparent so the background shows */
+    }
+
+    @keyframes shine {
+      0% {
+        background-position: 200% 0;
+      }
+      100% {
+        background-position: -200% 0;
+      }
+    }
+
+    .game-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .game-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .search-bar {
+      transition: all 0.3s ease;
+    }
+
+    .search-bar:focus {
+      outline: none;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+  </style>
+</head>
+<body class="font-sans">
+  <!-- Announcement Banner -->
+  <div class="bg-purple-600 text-white py-2 text-center text-sm font-semibold">
+    <i class="bi bi-megaphone-fill mr-2"></i> Bab Games is adding more games. Press the contact button and email us to request your favorite game!
+  </div>
+
+  <!-- Header -->
+  <header class="bg-gray-900 shadow-lg">
+    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+      <h1 class="text-3xl font-bold text-purple-400">Bab Games</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li>
+            <a href="mailto:babgames@usa.com" class="text-gray-300 hover:text-purple-400 transition-colors">
+              <i class="bi bi-envelope-fill mr-2"></i> Contact
+            </a>
+          </li>
+          <li>
+            <a href="mailto:babgames@usa.com?subject=DMCA Request" class="text-gray-300 hover:text-purple-400 transition-colors">
+              <i class="bi bi-exclamation-triangle-fill mr-2"></i> DMCA Request
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-6 py-12">
+    <section class="text-center mb-12">
+      <h2 class="text-5xl font-bold mb-6 text-white-600 shine-effect">Welcome to Bab Games</h2>
+      <p class="text-lg text-white-600 mb-8">Play the coolest games online. Start your adventure today!</p>
+      <input
+        type="text"
+        id="search"
+        placeholder="Search on Bab Games..."
+        class="search-bar w-full max-w-md px-4 py-2 rounded-lg bg-gray-800 text-white placeholder-gray-400 focus:ring-2 focus:ring-purple-500"
+      />
+    </section>
+
+    <section>
+      <div id="game-list" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+<!-- Game Card: 2048 -->
+<div class="game-card bg-gray-800 rounded-lg shadow-md p-4 flex items-center">
+  <a href="/2048" class="flex items-center w-full">
+    <!-- Game Logo -->
+    <img src="images/2048.jpg" alt="2048" class="w-16 h-16 mr-4 rounded" />
+    
+    <!-- Game Details -->
+    <div class="text-left">
+      <h4 class="text-xl font-semibold text-purple-400">2048</h4>
+      <p class="text-gray-400 mt-2">A fun and challenging puzzle game!</p>
+    </div>
+  </a>
+</div>
+
+
+       <!-- Game Card: Retrobowl -->
+<div class="game-card bg-gray-800 rounded-lg shadow-md p-4 flex items-center">
+  <a href="/Retrobowl" class="flex items-center w-full">
+    <!-- Game Logo -->
+    <img src="images/retrobowl.jpg" alt="Retrobowl" class="w-16 h-16 mr-4 rounded" />
+    
+    <!-- Game Details -->
+    <div class="text-left">
+      <h4 class="text-xl font-semibold text-purple-400">Retrobowl</h4>
+      <p class="text-gray-400 mt-2">A retro-style football game with a lot of fun!</p>
+    </div>
+  </a>
+</div>
+
+
+       <!-- Game Card: Cookie Clicker -->
+<div class="game-card bg-gray-800 rounded-lg shadow-md p-4 flex items-center">
+  <a href="/CookieClicker" class="flex items-center w-full">
+    <!-- Game Logo -->
+    <img src="images/cookie-clicker.jpg" alt="Cookie Clicker" class="w-16 h-16 mr-4 rounded" />
+    
+    <!-- Game Details -->
+    <div class="text-left">
+      <h4 class="text-xl font-semibold text-purple-400">Cookie Clicker</h4>
+      <p class="text-gray-400 mt-2">Click to bake cookies and upgrade your bakery!</p>
+    </div>
+  </a>
+</div>
+
+
+        <!-- Game Card: Block Blast -->
+<div class="game-card bg-gray-800 rounded-lg shadow-md p-4 flex items-center">
+  <a href="/blockblast" class="flex items-center w-full">
+    <!-- Game Logo -->
+    <img src="images/block-blast.jpg" alt="Block Blast" class="w-16 h-16 mr-4 rounded" />
+    
+    <!-- Game Details -->
+    <div class="text-left">
+      <h4 class="text-xl font-semibold text-purple-400">Block Blast</h4>
+      <p class="text-gray-400 mt-2">A fun and strategic block puzzle game!</p>
+    </div>
+  </a>
+</div>
+
+
+        <!-- Game Card: Slope -->
+<div class="game-card bg-gray-800 rounded-lg shadow-md p-4 flex items-center">
+  <a href="/Slope" class="flex items-center w-full">
+    <!-- Game Logo -->
+    <img src="images/slope.jpg" alt="Slope" class="w-16 h-16 mr-4 rounded" />
+    
+    <!-- Game Details -->
+    <div class="text-left">
+      <h4 class="text-xl font-semibold text-purple-400">Slope</h4>
+      <p class="text-gray-400 mt-2">A fast-paced, endless running game!</p>
+    </div>
+  </a>
+</div>
+
+
+        <!-- Game Card: 1v1.lol -->
+<div class="game-card bg-gray-800 rounded-lg shadow-md p-4 flex items-center">
+  <a href="/1v1lol" class="flex items-center w-full">
+    <!-- Game Logo -->
+    <img src="images/1v1lol.jpg" alt="1v1.lol" class="w-16 h-16 mr-4 rounded" />
+    
+    <!-- Game Details -->
+    <div class="text-left">
+      <h4 class="text-xl font-semibold text-purple-400">1v1.lol</h4>
+      <p class="text-gray-400 mt-2">A fast-paced battle royale with building and shooting!</p>
+    </div>
+  </a>
+</div>
+
+
+       <!-- Game Card: SnowRider 3D -->
+<div class="game-card bg-gray-800 rounded-lg shadow-md p-4 flex items-center">
+  <a href="/snowrider" class="flex items-center w-full">
+    <!-- Game Logo -->
+    <img src="/snowrider/snow-rider-3d.png" alt="SnowRider 3D" class="w-16 h-16 mr-4 rounded" />
+    
+    <!-- Game Details -->
+    <div class="text-left">
+      <h4 class="text-xl font-semibold text-purple-400">Snowrider 3D</h4>
+      <p class="text-gray-400 mt-2">Slide down a giant mountain</p>
+    </div>
+  </a>
+</div>
+
+
+        <!-- Game Card: Flappy Bird -->
+<div class="game-card bg-gray-800 rounded-lg shadow-md p-4 flex items-center">
+  <a href="/flappy-bird" class="flex items-center w-full">
+    <!-- Game Logo -->
+    <img src="images/flappy-bird.jpg" alt="Flappy Bird" class="w-16 h-16 mr-4 rounded" />
+    
+    <!-- Game Details -->
+    <div class="text-left">
+      <h4 class="text-xl font-semibold text-purple-400">Flappy Bird</h4>
+      <p class="text-gray-400 mt-2">Tap to make the bird fly and avoid obstacles!</p>
+    </div>
+  </a>
+</div>
+
+
+       <!-- Game Card: Basketball Legends -->
+<div class="game-card bg-gray-800 rounded-lg shadow-md p-4 flex items-center">
+  <a href="/basketball-legends" class="flex items-center w-full">
+    <!-- Game Logo -->
+    <img src="images/basketball-legends.jpg" alt="Basketball Legends" class="w-16 h-16 mr-4 rounded" />
+    
+    <!-- Game Details -->
+    <div class="text-left">
+      <h4 class="text-xl font-semibold text-purple-400">Basketball Legends</h4>
+      <p class="text-gray-400 mt-2">Play Basketball with 2 players!</p>
+    </div>
+  </a>
+</div>
+
+
+        <!-- Game Card: Geometry Dash -->
+<div class="game-card bg-gray-800 rounded-lg shadow-md p-4 flex items-center">
+  <a href="/geometrydash" class="flex items-center w-full">
+    <!-- Game Logo -->
+    <img src="images/geometry-dash.jpg" alt="Geometry Dash" class="w-16 h-16 mr-4 rounded" />
+    
+    <!-- Game Details -->
+    <div class="text-left">
+      <h4 class="text-xl font-semibold text-purple-400">Geometry Dash</h4>
+      <p class="text-gray-400 mt-2">Jump and fly through danger in this rhythm platformer!</p>
+    </div>
+  </a>
+</div>
+       </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 py-12 w-full">
+    <div class="container mx-auto px-6">
+      <!-- Quick Links -->
+      <div class="text-center mb-8">
+        <h3 class="text-xl font-semibold text-purple-400 mb-4">Quick Links</h3>
+        <ul class="space-y-2 text-gray-300">
+          <li><a href="privacy-policy.html" class="hover:text-purple-400 transition-colors"><i class="bi bi-shield-lock-fill"></i> Privacy Policy</a></li>
+          <li><a href="mailto:babgames@usa.com" class="hover:text-purple-400 transition-colors"><i class="bi bi-envelope-fill"></i> Contact</a></li>
+          <li><a href="mailto:babgames@usa.com" class="hover:text-purple-400 transition-colors"><i class="bi bi-exclamation-triangle-fill mr-2"></i> DMCA Request</a></li>
+        </ul>
+      </div>
+      
+      <!-- Copyright -->
+      <div class="text-center text-gray-500">
+        <p>© 2025 Bab Games. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Search Functionality -->
+  <script>
+    const searchInput = document.getElementById('search');
+    const gameList = document.getElementById('game-list');
+    const games = gameList.getElementsByClassName('game-card');
+
+    searchInput.addEventListener('input', () => {
+      const searchTerm = searchInput.value.toLowerCase();
+
+      Array.from(games).forEach(game => {
+        const gameName = game.querySelector('h4').textContent.toLowerCase();
+        if (gameName.includes(searchTerm)) {
+          game.style.display = 'block';
+        } else {
+          game.style.display = 'none';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
